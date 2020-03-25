@@ -12,6 +12,7 @@ Locales['fr'] = {
     ['you_got'] = "Vous avez obtenu ",
     ['wait_for_turn'] = "~o~ Attendez votre tour!",
     ['point'] = " Points",
+    ['map_blip'] = "Stand de tir",
 
     -- Scores
     ['show_board'] = "appuyez sur ~INPUT_PICKUP~ pour voir les 10 derniers tests",
