@@ -345,7 +345,7 @@ Citizen.CreateThread(function()
         SetBlipAsShortRange(blip, true)
 
         BeginTextCommandSetBlipName('STRING')
-        AddTextComponentString('Stand de tir')
+        AddTextComponentSubstringPlayerName(_U('map_blip'))
         EndTextCommandSetBlipName(blip)
     end
 end)
