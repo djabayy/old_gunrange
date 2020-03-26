@@ -5,6 +5,7 @@ Add a shooting stand to your server where you can train your aim
 ## Informations
 
    - 5 difficulty levels (from easy to impossible)
+   - For more realism, you are automaticaly switched to first person view when the test starts
    - You can choose how many targets you want to shoot (from 10 to 20)
    - You can get 1-5 points from each target, depending how good shooter you are. 
    - Nearby players can see your score in chat (if config is set properly :) )
