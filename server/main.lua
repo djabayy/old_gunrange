@@ -8,7 +8,7 @@ function getIdentity(source, callback)
     print(xPlayer)
 
     MySQL.Async.fetchAll(
-        'SELECT identifier, firstname, lastname, dateofbirth, bloodgroup, sex, height FROM `users` WHERE `identifier` = @identifier',
+        'SELECT identifier, firstname, lastname, dateofbirth, sex, height FROM `users` WHERE `identifier` = @identifier',
         {['@identifier'] = xPlayer.identifier}, function(result)
             if result[1].firstname ~= nil then
                 local data = {
@@ -16,7 +16,6 @@ function getIdentity(source, callback)
                     firstname = result[1].firstname,
                     lastname = result[1].lastname,
                     dateofbirth = result[1].dateofbirth,
-                    bloodgroup = result[1].bloodgroup,
                     sex = result[1].sex,
                     height = result[1].height
                 }
@@ -28,7 +27,6 @@ function getIdentity(source, callback)
                     firstname = '',
                     lastname = '',
                     dateofbirth = '',
-                    bloodgroup = '',
                     sex = '',
                     height = ''
                 }
