@@ -1,6 +1,7 @@
 Config = {}
 Config.ChatMessages = false
 Config.Locale = 'fr'
+Config.ForceFirstView = true
 
 Config.Gunrange = {
 

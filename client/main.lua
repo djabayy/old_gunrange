@@ -107,7 +107,9 @@ Citizen.CreateThread(function()
         if sShoot then
             if coutDown == 0 then
                 if spwnT then
-                    SetFollowPedCamViewMode(4)
+                    if Config.ForceFirstView then
+                        SetFollowPedCamViewMode(4)
+                    end
                     count = count + 1
                     local number = math.random(#Config.targets)
                     cTCoords = Config.targets[number]
@@ -126,7 +128,9 @@ Citizen.CreateThread(function()
 
                     if count == mTargets then spwnT = false end
                 else
-                    SetFollowPedCamViewMode(2)
+                    if Config.ForceFirstView then
+                        SetFollowPedCamViewMode(2)
+                    end
                     drawTxt(0.85, 0.82, 1.0, 1.0, 2.13,
                             _U('you_got') .. points .. _U('points'), 255, 255,
                             255, 240)
