@@ -1,7 +1,7 @@
 Locales['fr'] = {
     ['gunrange'] = " Entrainement de Tir ",
-    ['actionMessage'] = "appuyez sur ~INPUT_PICKUP~ pour ouvrir le menu.",
-    ['difficulty'] = " difficulté ",
+    ['actionMessage'] = "Appuyez sur ~INPUT_PICKUP~ pour ouvrir le menu.",
+    ['difficulty'] = " Difficulté ",
     ['easy'] = " Facile ",
     ['normal'] = " Normale ",
     ['hard'] = " Difficile ",
@@ -10,15 +10,15 @@ Locales['fr'] = {
     ['targets'] = " Cibles ",
     ['points'] = " Points ",
     ['you_got'] = "Vous avez obtenu ",
-    ['wait_for_turn'] = "~o~ Attendez votre tour!",
+    ['wait_for_turn'] = "~o~ Attendez votre tour !",
     ['point'] = " Points",
     ['map_blip'] = "Stand de tir",
 
     -- Scores
-    ['show_board'] = "appuyez sur ~INPUT_PICKUP~ pour voir les 10 derniers tests",
+    ['show_board'] = "Appuyez sur ~INPUT_PICKUP~ pour voir les 10 derniers résultats",
     ['last_10'] = "10 DERNIERS",
-    ['name'] = "nom: ",
-    ['difficulty_2'] = "difficulté: ",
-    ['targets_2'] = "cibles: ",
-    ["points_2"] = "score: "
+    ['name'] = "Nom: ",
+    ['difficulty_2'] = "Difficulté: ",
+    ['targets_2'] = "Cibles: ",
+    ["points_2"] = "Score: "
 }
